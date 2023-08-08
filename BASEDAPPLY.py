@@ -5,7 +5,7 @@ import openai as ai
 from PyPDF2 import PdfReader
 
 # ai.api_key = st.secrets["openai_key"]
-ai.api_key = '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'
+ai.api_key = st.secrets["openai_key"]
 
 
 st.markdown("""
